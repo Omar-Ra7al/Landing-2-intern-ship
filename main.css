@@ -1,0 +1,315 @@
+/* << Start Global Variables */
+:root {
+  --main-color: #545454;
+  --bg-color: #1f1f1f;
+  --footer-color: #d1d1d1;
+}
+body {
+  overflow-x: hidden;
+}
+.container {
+  overflow: hidden;
+}
+.container img {
+  width: 100%;
+  height: auto;
+}
+
+.main-custom-color {
+  color: #545454;
+}
+.bg-custom-color {
+  background-color: #1f1f1f;
+}
+.footer-color {
+  color: var(--footer-color);
+}
+
+/* End Global Variables // >> */
+
+/* << Start Nav */
+.logo {
+  width: 177px;
+  height: 48px;
+  margin-left: 5px;
+}
+.logo span {
+  width: 15%;
+  height: 70%;
+  margin-left: -5px;
+}
+/* End Nav //>> */
+
+/* << Start Home Content */
+
+.main-header .home-title {
+  font-size: 100px;
+}
+.main-header .details {
+  width: 80%;
+}
+.main-header .img-holder {
+  max-width: 400px;
+}
+
+@media (max-width: 1200px) {
+  .main-header .home-title {
+    font-size: 70px;
+  }
+
+  .main-header .img-holder {
+    max-width: 300px;
+    margin-left: auto;
+  }
+}
+@media (max-width: 992px) {
+  .main-header .home-title {
+    font-size: 50px;
+  }
+  .main-header .details {
+    width: 100%;
+  }
+}
+@media (max-width: 768px) {
+  .main-header {
+    text-align: center;
+  }
+
+  .main-header .img-holder {
+    margin: 0 auto 50px;
+    max-width: 250px;
+  }
+
+  .main-header .details {
+    font-size: 16px !important;
+  }
+}
+/* End Home Content //>> */
+
+/* << START PROJECT SECTION */
+.start-project .statics p {
+  font-size: 45px;
+}
+.start-project .statics span {
+  font-size: 14px;
+}
+.start-project .img-holder span {
+  width: 206px;
+  height: 187px;
+  z-index: -1;
+  top: -30px;
+  left: -30px;
+}
+.start-project .img-holder img {
+  width: 85%;
+  height: auto;
+}
+.start-project .img-holder button {
+  width: 130px;
+  height: 130px;
+}
+@media (max-width: 992px) {
+  .start-project .statics p {
+    font-size: 35px;
+  }
+
+  .start-project .statics span {
+    font-size: 12px;
+  }
+  .start-project .img-holder {
+    max-width: 400px;
+    margin-bottom: 50px;
+    margin-left: 30px;
+  }
+
+  .start-project .img-holder button {
+    width: 90px;
+    height: 90px;
+  }
+
+  .start-project .img-holder span {
+    width: 106px;
+    height: 87px;
+    top: -15px;
+    left: -15px;
+  }
+}
+@media (max-width: 768px) {
+  .start-project .img-holder {
+    max-width: 300px;
+    margin-bottom: 50px;
+    margin: 0 auto 50px;
+  }
+
+  .start-project .img-holder button {
+    width: 50px;
+    height: 50px;
+  }
+
+  .start-project .img-holder span {
+    width: 60px;
+    height: 47px;
+    top: -7px;
+    left: -7px;
+  }
+
+  .start-project .statics p {
+    font-size: 30px;
+  }
+
+  .start-project .statics span {
+    font-size: 11px;
+  }
+}
+/*  END PROJECT SECTION // >> */
+
+/* << Start Our Services Section */
+.our-sevices .line {
+  width: 100px;
+  height: 2px;
+}
+@media (max-width: 992px) {
+  .our-sevices .line {
+    width: 70px;
+  }
+}
+@media (max-width: 768px) {
+  .our-sevices .line {
+    width: 50px;
+  }
+}
+/* End Our Services Section // >> */
+
+/* << Start Desigining  */
+.card .card-details {
+  line-height: 30px;
+  font-size: 18px !important;
+}
+@media (max-width: 992px) {
+  .designing .card-title {
+    font-size: 30px !important;
+  }
+  .designing .card-details {
+    font-size: 14px !important;
+  }
+  .designing .card-text p,
+  .designing .card-text i {
+    font-size: 15px !important;
+  }
+  .designing button {
+    margin-top: 5px;
+    padding: 6px 20px !important;
+    font-size: 14px;
+  }
+}
+@media (max-width: 768px) {
+  .designing {
+    text-align: center;
+  }
+  .designing .card-title {
+    font-size: 25px !important;
+  }
+
+  .designing button {
+    padding: 5px 10px !important;
+  }
+  .designing img {
+    width: 100% !important;
+  }
+}
+.icon-wrapper,
+.icon-wrapper-not {
+  position: relative;
+  min-width: 50px;
+  height: 50px;
+}
+
+.icon-wrapper::before {
+  content: "";
+  position: absolute;
+  bottom: -150%;
+  width: 1px;
+  height: 40px;
+  background-color: #9b9b9b;
+}
+
+/* End Desigining  // >> */
+
+/* << Start Customer Express Section   */
+.customer-express {
+  width: 85%;
+  max-height: 60%;
+  height: fit-content;
+}
+.quote {
+  font-size: 50px;
+}
+.customer-express .custom-card {
+  height: 100%;
+}
+.customer-express .customer-info .img-holder {
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+.customer-express .citey {
+  font-size: 14px;
+}
+
+@media (max-width: 992px) {
+  .customer-express .custom-card {
+    padding: 10px !important;
+  }
+  .customer-express .custom-card p {
+    font-size: 14px !important;
+  }
+  .customer-express {
+    width: 100%;
+    left: 25% !important;
+  }
+  .quote {
+    font-size: 30px;
+  }
+}
+@media (max-width: 785px) {
+  .our-customers .card .row:first-of-type {
+    flex-direction: column-reverse;
+  }
+  .our-customers .card .row:first-of-type div {
+    flex: 1;
+    width: 100% !important;
+  }
+  .our-customers .customer-express {
+    left: 20% !important;
+    flex-wrap: nowrap;
+    bottom: 7% !important;
+  }
+  .customer-express .custom-card {
+    min-width: 75% !important;
+  }
+}
+/* End Customer Express Section // >>  */
+
+/* << Start Footer */
+footer {
+  position: relative;
+}
+
+footer .input-group {
+  position: absolute;
+  top: -32px;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: #fff;
+  box-shadow: 0 0 10px #00000024;
+  width: 50%;
+}
+
+@media (max-width: 775px) {
+  footer .input-group {
+    width: 90%;
+  }
+}
+/* End Footer // >> */
